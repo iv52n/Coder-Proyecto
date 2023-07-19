@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "mafisha";
+  src: url(../asets/Fonts/Mafisha.otf);
+}
+* {
+  font-family: arsenal;
+  text-decoration: none !important;
+}
+
+header {
+  background-color: #393939 !important;
+}
+
+main {
+  background-color: #cacaca;
+}
+
+main img {
+  width: 500px;
+}
+
+.description {
+  transform: translateY(58px);
+  color: #393939;
+}
+
+.mac {
+  margin-top: 300px;
+  display: flex !important;
+  justify-content: center;
+}
+
+.mac img {
+  width: 500px;
+}
+
+.others {
+  margin: 10px;
+}
+
+footer {
+  background-color: #393939 !important;
+}
+
+#mcair {
+  width: 600px;
+  display: inline-block;
+}
+
+.container-prod {
+  margin-top: 150px;
+}
+
+#e-cont {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.error {
+  font-family: "mafisha" !important;
+  font-size: 5rem;
+  margin-top: 100px;
+}
+
+.container-prev {
+  height: 0;
+  width: 0;
+}
+
+.btn {
+  height: 60px;
+  width: 60px;
+  color: #cacaca;
+  background-color: #000;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  background-color: #393939;
+}
+
+#cables {
+  justify-content: center;
+  margin-top: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
