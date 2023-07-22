@@ -13,7 +13,11 @@ $coloroscuro: #393939;
     text-decoration: none !important;
 }
 header {
+    width: 100%;
     background-color: $coloroscuro !important; 
+}
+body{
+    width: 100%;
 }
 main {
     background-color: $color;
@@ -37,6 +41,8 @@ main img {
     margin: 10px;
 }
 footer{
+    width: 100%;
+    height: 30vh;
     background-color: $coloroscuro !important;
 }
 
@@ -44,11 +50,6 @@ footer{
 #mcair{
     width: 600px;
     display: inline-block;
-}
-
-.container-prod{
-    margin-top: 150px;
-
 }
 
 // Error
@@ -79,4 +80,12 @@ footer{
 #cables{
     justify-content: center;
     margin-top: 200px;
+}
+
+
+#ip12{
+    width: 600px;
+}
+.ftr{
+    height: 35vh;
 }

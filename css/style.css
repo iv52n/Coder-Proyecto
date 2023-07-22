@@ -8,7 +8,12 @@
 }
 
 header {
+  width: 100%;
   background-color: #393939 !important;
+}
+
+body {
+  width: 100%;
 }
 
 main {
@@ -39,16 +44,14 @@ main img {
 }
 
 footer {
+  width: 100%;
+  height: 30vh;
   background-color: #393939 !important;
 }
 
 #mcair {
   width: 600px;
   display: inline-block;
-}
-
-.container-prod {
-  margin-top: 150px;
 }
 
 #e-cont {
@@ -82,6 +85,14 @@ footer {
 #cables {
   justify-content: center;
   margin-top: 200px;
+}
+
+#ip12 {
+  width: 600px;
+}
+
+.ftr {
+  height: 35vh;
 }
 
 /*# sourceMappingURL=style.css.map */
