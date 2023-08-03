@@ -12,80 +12,128 @@ $coloroscuro: #393939;
     font-family: arsenal;
     text-decoration: none !important;
 }
+
 header {
     width: 100%;
-    background-color: $coloroscuro !important; 
+    background-color: $coloroscuro !important;
 }
-body{
+
+body {
     width: 100%;
 }
+
 main {
     background-color: $color;
 }
+
 main img {
     width: 500px;
 }
+
 .description {
     transform: translateY(58px);
     color: $coloroscuro;
 }
+
 .mac {
     margin-top: 300px;
     display: flex !important;
     justify-content: center;
 }
+
 .mac img {
     width: 500px;
 }
+
 .others {
     margin: 10px;
 }
-footer{
+
+footer {
     width: 100%;
     height: 30vh;
     background-color: $coloroscuro !important;
 }
 
 // Mac air
-#mcair{
+#mcair {
     width: 600px;
     display: inline-block;
 }
 
 // Error
-#e-cont{
+#e-cont {
     overflow: hidden;
     height: 100vh;
 }
-.error{
-    font-family: "mafisha" !important   ;
-    font-size: 5rem; 
+
+.error {
+    font-family: "mafisha" !important;
+    font-size: 5rem;
     margin-top: 100px;
 }
-.container-prev{
+
+.container-prev {
     height: 0;
     width: 0;
 }
-.btn{
+
+.btnn {
     height: 60px;
     width: 60px;
     color: $color;
     background-color: #000;
     border-radius: 0px;
 }
-.btn:hover{
+
+.btnn:hover {
     background-color: $coloroscuro ;
 }
 
-#cables{
+#cables {
     justify-content: center;
     margin-top: 200px;
 }
 
 
-#ip12{
+#ip12 {
     width: 600px;
 }
-.ftr{
+
+.ftr {
     height: 41vh;
+}
+
+// FIX ultima entrega
+
+#ubi {
+    width: 16px;
+}
+
+#ip14 {
+    width: 500px;
+    display: inline-block;
+}
+
+.cart {
+    width: 20px;
+}
+
+.brd {
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.cinner {
+    width: 500px;
+}
+
+#space {
+    width: 50px;
+    margin-left: 300px;
+}
+
+.applestore{
+    width: 100%;
+    height: 100%;
 }
