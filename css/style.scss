@@ -46,12 +46,13 @@ main img {
 }
 
 .others {
-    margin: 10px;
+    margin: 5px;
+    margin-top: 10px;
 }
 
 footer {
     width: 100%;
-    height: 30vh;
+    height: 100%;
     background-color: $coloroscuro !important;
 }
 
@@ -100,10 +101,6 @@ footer {
     width: 600px;
 }
 
-.ftr {
-    height: 41vh;
-}
-
 // FIX ultima entrega
 
 #ubi {
@@ -133,13 +130,22 @@ footer {
     margin-left: 300px;
 }
 
-.applestore{
+.applestore {
     width: 100%;
     height: 100%;
 }
-.mb{
+
+.mb {
     margin-bottom: 100px;
 }
-.mt{
+
+.mt {
     margin-top: 50px;
+}
+.ftr{
+    width: 100%;
+    height: 35vh;
+}
+.mn{
+    height: 60vh;
 }
